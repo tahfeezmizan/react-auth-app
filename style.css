@@ -9,7 +9,8 @@
 }
 
 .banner-content,
-.failures-content {
+.failures-content,
+.plans-content {
     width: 1140px;
     margin: auto;
     padding: 70px 0;
@@ -65,7 +66,8 @@
     justify-content: space-around;
 }
 
-.fail-title {
+.fail-title,
+.plans-title {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -96,4 +98,37 @@
 .fail-icons i {
     color: #16D887;
     margin-right: 10px;
+}
+
+/* plans section design  */
+
+.plans-title {
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.plans-container img {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.skill-title {
+    color: #151414;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.skill-dec {
+    color: #737272;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
 }
