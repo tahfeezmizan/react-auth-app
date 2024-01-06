@@ -5,20 +5,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+
 }
 
+.banner-content,
+.failures-content {
+    width: 1140px;
+    margin: auto;
+    padding: 70px 0;
+}
+
+/* banner section design here  */
 #banner {
     height: 105vh;
     background: url(images/banner/banner3.png) center no-repeat;
     background-size: cover;
 }
 
-.banner-content {
-    width: 1140px;
-    margin: auto;
-}
-
-.banner-container{
+.banner-container {
     margin-left: 55%;
     text-align: end;
     padding: 250px 0;
@@ -49,4 +53,20 @@
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* failures content design Here  */
+
+
+.fail-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fail-des {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
