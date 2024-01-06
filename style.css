@@ -25,7 +25,7 @@
 .banner-container {
     margin-left: 55%;
     text-align: end;
-    padding: 250px 0;
+    padding: 190px 0;
 }
 
 .banner-title {
@@ -57,11 +57,18 @@
 
 /* failures content design Here  */
 
+.failures-content {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-around;
+}
 
 .fail-title {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 25px;
 }
 
 .fail-des {
@@ -69,4 +76,23 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.fail-step {
+    display: block;
+}
+
+.fail-icons {
+    display: block;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.fail-icons i {
+    color: #16D887;
+    margin-right: 10px;
+    /* font-size: 24px; */
 }
