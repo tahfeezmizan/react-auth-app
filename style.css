@@ -10,7 +10,8 @@
 
 .banner-content,
 .failures-content,
-.plans-content {
+.plans-content,
+.newslatter-content {
     width: 1140px;
     margin: auto;
     padding: 70px 0;
@@ -67,7 +68,8 @@
 }
 
 .fail-title,
-.plans-title {
+.plans-title,
+.newslatter-title {
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -131,4 +133,20 @@
     text-align: center;
     font-size: 24px;
     font-weight: 500;
+}
+
+.newslatter-container {
+    background: url('images/gradient1.png'), url('images/watch.png');
+    height: 300px;
+    border-radius: 8px;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 70px;
+}
+
+.newslatter-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
 }
