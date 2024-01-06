@@ -5,7 +5,9 @@
     font-family: "Work Sans", sans-serif;
 }
 
-.banner-content, .failures-content, .plans-content, .newslatter-content {
+.banner-content, .failures-content, 
+.plans-content, .newslatter-content,
+.footer-section {
     width: 1140px;
     margin: auto;
     padding: 70px 0px;
@@ -121,6 +123,9 @@
     font-weight: 500;
 }
 
+
+/* newslatter section style here  */
+
 .newslatter-container {
     background: url("images/gradient1.png"), url("images/watch.png");
     height: 300px;
@@ -136,4 +141,15 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+
+/* footer section design here  */
+footer{
+    background:#151414;
+}
+
+.footer-section{
+    display: flex;
+    gap: 350px;
+    justify-content: space-around;
 }
