@@ -190,17 +190,16 @@ footer {
 
 
 .social-links a img {
-    margin-top: 32px;
+    margin-top: 30px;
     padding-right: 20px;
 
 }
 
 .contact-title {
     color: #FFF;
-font-size: 25px;
-font-weight: 600;
-margin-bottom: 32px;
-margin-bottom: 32px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 32px;
 }
 
 input {
