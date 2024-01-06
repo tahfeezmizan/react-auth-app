@@ -1,37 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-
+    font-family: "Work Sans", sans-serif;
 }
 
-.banner-content,
-.failures-content,
-.plans-content,
-.newslatter-content {
+.banner-content, .failures-content, .plans-content, .newslatter-content {
     width: 1140px;
     margin: auto;
-    padding: 70px 0;
+    padding: 70px 0px;
 }
 
-/* banner section design here  */
 #banner {
     height: 105vh;
-    background: url(images/banner/banner3.png) center no-repeat;
-    background-size: cover;
+    background: url("images/banner/banner3.png") center center / cover no-repeat;
 }
 
 .banner-container {
-    margin-left: 55%;
+    margin-left: 56%;
     text-align: end;
-    padding: 190px 0;
+    padding: 190px 0px;
 }
 
 .banner-title {
-    color: #FFF;
+    color: rgb(255, 255, 255);
     text-align: right;
     font-size: 65px;
     font-weight: 700;
@@ -39,11 +31,11 @@
 }
 
 .banner-des {
-    color: #FFF;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin: 0 0 30px 0;
+    margin: 0px 0px 30px;
 }
 
 .banner-btn {
@@ -51,13 +43,11 @@
     border: none;
     padding: 21px 26px;
     border-radius: 5px;
-    background: #FFF;
-    color: #005FAC;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 95, 172);
     font-size: 20px;
     font-weight: 600;
 }
-
-/* failures content design Here  */
 
 .failures-content {
     display: flex;
@@ -67,17 +57,15 @@
     justify-content: space-around;
 }
 
-.fail-title,
-.plans-title,
-.newslatter-title {
-    color: #151414;
+.fail-title, .plans-title, .newslatter-title {
+    color: rgb(21, 20, 20);
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 25px;
 }
 
 .fail-des {
-    color: #444343;
+    color: rgb(68, 67, 67);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -90,7 +78,7 @@
 
 .fail-icons {
     display: block;
-    color: #444343;
+    color: rgb(68, 67, 67);
     font-size: 16px;
     margin-bottom: 8px;
     font-weight: 400;
@@ -98,11 +86,9 @@
 }
 
 .fail-icons i {
-    color: #16D887;
+    color: rgb(22, 216, 135);
     margin-right: 10px;
 }
-
-/* plans section design  */
 
 .plans-title {
     text-align: center;
@@ -121,7 +107,7 @@
 }
 
 .skill-title {
-    color: #151414;
+    color: rgb(21, 20, 20);
     text-align: center;
     font-size: 28px;
     font-weight: 700;
@@ -129,23 +115,24 @@
 }
 
 .skill-dec {
-    color: #737272;
+    color: rgb(115, 114, 114);
     text-align: center;
     font-size: 24px;
     font-weight: 500;
 }
 
 .newslatter-container {
-    background: url('images/gradient1.png'), url('images/watch.png');
+    background: url("images/gradient1.png"), url("images/watch.png");
     height: 300px;
     border-radius: 8px;
     align-items: center;
     vertical-align: middle;
     padding-left: 70px;
+    padding: 81px 0 81px 70px;
 }
 
 .newslatter-title {
-    color: #FFF;
+    color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
