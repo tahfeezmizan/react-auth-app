@@ -88,6 +88,7 @@
     display: block;
     color: #444343;
     font-size: 16px;
+    margin-bottom: 8px;
     font-weight: 400;
     line-height: 26px;
 }
@@ -95,5 +96,4 @@
 .fail-icons i {
     color: #16D887;
     margin-right: 10px;
-    /* font-size: 24px; */
 }
