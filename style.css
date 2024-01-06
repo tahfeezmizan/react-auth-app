@@ -60,6 +60,7 @@
 .failures-content {
     display: flex;
     gap: 120px;
+    padding-right: 50px;
     align-items: center;
     justify-content: space-around;
 }
