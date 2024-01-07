@@ -139,16 +139,20 @@
 
 
 /* newslatter section style here  */
+/* .newslatter-content{
+    display: inline-block;
+    align-items: end;
+    justify-content: center;
+} */
 
 .newslatter-container {
     background: url("images/gradient1.png"), url("images/watch.png");
     height: 300px;
     border-radius: 8px;
-    display: block;
+    /* display: block; */
     /* align-items: center; */
     justify-content: center;
-    padding-left: 70px;
-    /* padding: 81px 0 81px 70px; */
+    padding: 81px 0 81px 70px;
 }
 
 .newslatter-title {
