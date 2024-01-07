@@ -7,7 +7,6 @@
     font-family: "Work Sans", sans-serif;
 }
 
-.banner-content,
 .failures-content,
 .plans-content,
 .newslatter-content,
@@ -20,15 +19,20 @@
 #banner {
     height: 105vh;
     background: url("images/banner/banner3.png") center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.banner-container {
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.banner-container{
     margin-left: 56%;
     text-align: end;
-    /* padding: 190px 0px; */
-    align-items: center;
 }
-
 .banner-title {
     color: rgb(255, 255, 255);
     text-align: right;
@@ -55,6 +59,9 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+
+/* failures section design */
 
 .failures-content {
     display: flex;
@@ -137,10 +144,11 @@
     background: url("images/gradient1.png"), url("images/watch.png");
     height: 300px;
     border-radius: 8px;
-    align-items: center;
-    vertical-align: middle;
+    display: block;
+    /* align-items: center; */
+    justify-content: center;
     padding-left: 70px;
-    padding: 81px 0 81px 70px;
+    /* padding: 81px 0 81px 70px; */
 }
 
 .newslatter-title {
@@ -220,4 +228,13 @@ input {
     padding: 20px 36px !important;
     border-radius: 8px;
     background: #005FAC;
+}
+
+/*  */
+
+.new-section {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: end;
 }
