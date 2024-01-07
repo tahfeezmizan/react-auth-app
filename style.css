@@ -25,7 +25,8 @@
 .banner-container {
     margin-left: 56%;
     text-align: end;
-    padding: 190px 0px;
+    /* padding: 190px 0px; */
+    align-items: center;
 }
 
 .banner-title {
@@ -59,7 +60,7 @@
     display: flex;
     gap: 120px;
     padding-right: 50px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
 }
 
