@@ -1,15 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import './index.css'
-import Root from './Root/Root.jsx';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 import Home from './components/Header/Home.jsx';
 import Login from './components/Header/Login.jsx';
 import Register from './components/Header/Register.jsx';
+import './index.css';
+import Root from './Root/Root.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import AuthProvider from './AuthProvider/AuthProvider.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +32,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )
