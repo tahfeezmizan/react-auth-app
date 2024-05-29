@@ -1,3 +1,5 @@
+import { GoogleAuthProvider, TwitterAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+import { createContext, useEffect, useState } from "react"; 
 import { createContext } from "react";
 const AuthContext = createContext(null);
 
