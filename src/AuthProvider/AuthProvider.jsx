@@ -2,8 +2,16 @@ import { createContext } from "react";
 const AuthContext = createContext(null);
 
 const AuthProvider = ({ children }) => {
-    const AuthInfo = { name: 'Hello' }
-
+   // sing up user with email and password
+    const createUser = (email, password) => {
+        setLoading(true);
+        return createUserWithEmailAndPassword(auth, email, password);
+    }
+    
+    
+    const AuthInfo ={
+        createUser
+    }     
     return (
         <AuthContext.Provider value={AuthInfo}>
             {children}
