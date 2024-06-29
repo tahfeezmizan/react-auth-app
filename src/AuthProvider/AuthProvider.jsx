@@ -9,7 +9,11 @@ const AuthProvider = ({ children }) => {
         setLoading(true);
         return createUserWithEmailAndPassword(auth, email, password);
     }
-    
+
+   const SingInUser = (email, password) => {
+      setLoading(true);
+      return signInWithEmailAndPassword(auth, email, password);
+   }
     
     const AuthInfo ={
         createUser
